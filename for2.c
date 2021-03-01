@@ -13,6 +13,11 @@ int main(void)
         {
             continue;
         }
+        if (m == 8)
+        {
+            break; /* 8の時からはループから抜ける */
+        }
+
         printf("m: %d\n", m);
     }
 }
