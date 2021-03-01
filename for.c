@@ -14,8 +14,7 @@ int main(void)
 
     /*
      int m = 0;
-    while (m < 10)
-    {
+    while (m < 10){
         printf("m: %d\n", m);
         m++;
     }
