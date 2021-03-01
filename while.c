@@ -12,5 +12,13 @@ int main(void)
         /*　%dはint(整数)のデータ型 */
         m++;
     }
+
+    int n = 0;
+    do
+    {
+        printf("n: %d\n", n);
+        n++;
+    } while (n < 10);
+
     return 0;
 }
