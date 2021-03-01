@@ -12,6 +12,7 @@ int main(void)
         /*　%dはint(整数)のデータ型 */
         m++;
     }
+    /* ↑条件判定が前 真じゃないと実行されない */
 
     int n = 0;
     do
@@ -19,6 +20,7 @@ int main(void)
         printf("n: %d\n", n);
         n++;
     } while (n < 10);
+    /* ↑条件判定が後 とりあえず一旦実行される */
 
     return 0;
 }
